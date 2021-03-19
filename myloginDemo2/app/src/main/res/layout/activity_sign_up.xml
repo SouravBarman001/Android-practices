@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22c8ff"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/namesignupid"
+       android:textSize="20sp"
+       android:hint="Name"
+
+       />
+    <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/emailsignupid"
+       android:textSize="20sp"
+       android:hint="Email"
+
+       />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernmesignupid"
+        android:textSize="20sp"
+        android:hint="Username"
+
+        />
+
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordsignupid"
+        android:textSize="20sp"
+        android:hint="Password"
+
+        />
+
+   <Button
+       android:layout_marginTop="10dp"
+       android:layout_gravity="center"
+       android:layout_width="wrap_content"
+       android:id="@+id/signupuserdetailsid"
+       android:layout_height="wrap_content"
+       android:text="Sign Up"
+       />
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/backbuttonid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back button"
+        />
+
+
+
+
+</LinearLayout>

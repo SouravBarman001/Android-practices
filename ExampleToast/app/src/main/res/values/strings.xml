@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ExampleToast</string>
+    <string name="button_name">Login</string>
+    <string name="clicked_button">You have clicked Button</string>
+
+</resources>

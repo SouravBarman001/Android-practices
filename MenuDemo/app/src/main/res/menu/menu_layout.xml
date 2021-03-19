@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settingID"
+        android:title="Setting"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_settings_applications_black_24dp"
+        /><item
+        android:id="@+id/ShareID"
+        android:title="Share"
+        app:showAsAction="always"
+        /><item
+        android:id="@+id/aboutID"
+        android:title="About Us"
+        app:showAsAction="never"
+        />
+
+
+
+
+
+
+</menu>

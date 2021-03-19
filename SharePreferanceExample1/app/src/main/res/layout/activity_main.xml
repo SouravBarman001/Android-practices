@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+
+    <EditText
+
+
+        android:id="@+id/UsernameEdittextid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter your name"
+        android:textAlignment="center" />
+
+
+    <EditText
+
+       android:inputType="textPassword"
+       android:id="@+id/UserPasswordid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="90dp"
+        android:hint="Enter your password"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:layout_marginRight="10dp"
+            android:background="#B1A2C5"
+            android:id="@+id/savebuttonid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"/>
+
+        <Button
+            android:background="#95DA82"
+            android:id="@+id/loadbuttonid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Load"/>
+
+
+
+
+    </LinearLayout>
+
+<TextView
+    android:layout_marginTop="220dp"
+    android:textAlignment="center"
+    android:textSize="20sp"
+    android:id="@+id/detailstextviewid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+
+
+    />
+
+
+
+
+</RelativeLayout>

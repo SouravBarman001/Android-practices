@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+  android:text="@string/Title_text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+    <CheckBox
+android:id="@+id/appleboxID"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="@string/apple"
+       android:textStyle="italic"
+        android:textSize="20sp"
+        android:textColor="#37C33D"
+        />
+
+    <CheckBox
+        android:id="@+id/mangoboxID"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mango"
+        android:textStyle="italic"
+        android:textSize="20sp"/>
+
+    <CheckBox
+        android:id="@+id/orangeboxID"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:text="@string/orange"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/buttoncheckID"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_click"
+        android:textStyle="bold"
+        android:background="#DDD7EC"
+
+        />
+
+    <TextView
+        android:id="@+id/txtviewID"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+
+        />
+
+
+
+</LinearLayout>

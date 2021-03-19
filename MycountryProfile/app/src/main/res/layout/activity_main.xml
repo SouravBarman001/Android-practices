@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#938E9A"
+    android:gravity="center"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+<Button
+    android:id="@+id/buttonbangladeshid"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:background="#BDE679"
+    android:layout_height="wrap_content"
+    android:text="@string/bangladesh_text"
+    android:textSize="20sp"
+    style="@style/Widget.AppCompat.Button.Colored"
+
+    />
+    <Button
+        android:id="@+id/buttonindiaid"
+       android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:background="#BDE679"
+        android:layout_height="wrap_content"
+        android:text="@string/india_text"
+        android:textSize="20sp"
+   style="@style/Widget.AppCompat.Light.ActionBar.TabBar"
+        />
+
+    <Button
+        android:id="@+id/buttonamericaid"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:background="#BDE679"
+        android:layout_height="wrap_content"
+        android:text="@string/america_text"
+        android:textSize="20sp"
+style="@style/Widget.AppCompat.SeekBar"
+        />
+</LinearLayout>

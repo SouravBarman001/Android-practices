@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MycountryProfile</string>
+    <string name="bangladesh_text">Bangladesh</string>
+    <string name="india_text">India</string>
+    <string name="america_text">America</string>
+    <string name="bangladesh_data">Bangladesh
+Country in South Asia</string>
+
+    <string name="india_data">this is india India</string>
+<string name="america_data">United State of america</string>
+</resources>
