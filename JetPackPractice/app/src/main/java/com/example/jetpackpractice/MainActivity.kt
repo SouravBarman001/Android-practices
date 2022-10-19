@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
@@ -14,6 +15,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
 import com.example.jetpackpractice.ui.theme.JetPackPracticeTheme
 import com.example.jetpackpractice.ui.theme.Purple200
+import com.example.jetpackpractice.ui.theme.Teal200
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,6 +35,7 @@ Column() {
     Text(text = "Hello rahi", fontSize = 50.sp, color =Purple200)
 
     Text(text = "Hello jarif", fontSize = 50.sp, color =Purple200)
+    Text(text = "Hello nayeem", fontSize = 70.sp, color =Purple200)
 }
 
 }
@@ -40,9 +43,17 @@ Column() {
 @Composable
 fun printLoop(){
     val name = listOf<String>("sourav","payel","puspom","anupom")
-Column() {
+    val names = listOf<String>("a","b","c","d")
+  Row() {
+    Column() {
     for (a in name){
-        Text(text = "${a}", fontSize = 30.sp)
+        Text(text = "${a}", fontSize = 30.sp,color= Teal200)
     }
 }
+    Column() {
+        for (a in names){
+            Text(text = "${a}", fontSize = 30.sp,color= Teal200)
+        }
+    }
+  }
 }
